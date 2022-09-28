@@ -12,8 +12,56 @@ body {
     margin: auto;
     border-radius: 5px;
     padding: 50px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .stepper {
     background-color: #f9fafb;
+    padding: 30px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.index {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    color: #5047e5;
+    box-shadow: 5px
+}
+
+.curr {
+    background-color: #5047e5;
+    color: white;
+}
+
+.prev {
+    background-color: #14b8a6;
+    color: white;
+}
+
+.prev-title {
+    color: #14b8a6;
+}
+
+.curr-title {
+    color: #5047e5;
+}
+
+.title, h3, h4 {
+    color: #374151;
+}
+
+.next {
+    height: 5px;
+    background: #14b8a6;
+}
+
+form {
+    display: flex;
 }

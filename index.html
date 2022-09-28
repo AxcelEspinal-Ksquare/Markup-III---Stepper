@@ -10,38 +10,33 @@
 <body>
     <div class="jumbo">
         <nav class="stepper">
-            <span class="step prev">
-                <span class="index">
-                    1
-                </span>
-                <span class="title">
+            <div class="step">
+                <div class="index prev">1</div>
+                <div class="prev-title">
                     Cabin
-                </span>
-            </span>
-            <span class="step curr">
-                <span class="index">
-                    2
-                </span>
-                <span class="title">
+                </div>
+                <div class="next"></div>
+            </div>
+            <div class="step">
+                <div class="index curr">2</div>
+                <div class="curr-title">
                     Meals
-                </span>
-            </span>
-            <span class="step">
-                <span class="index">
-                    3
-                </span>
-                <span class="title">
+                </div>
+                <div class="next"></div>
+            </div>
+            <div class="step">
+                <div class="index">3</div>
+                <div class="title">
                     Upgrades
-                </span>
-            </span>
-            <span class="step">
-                <span class="index">
-                    4
-                </span>
-                <span class="title">
+                </div>
+                <div class="next"></div>
+            </div>
+            <div class="step">
+                <div class="index">4</div>
+                <div class="title">
                     Payment
-                </span>
-            </span>
+                </div>
+            </div>
         </nav>
         <section class="main">
             <div class="top">
@@ -51,8 +46,54 @@
                 </p>
             </div>
             <form action="">
-
+                <div class="row">
+                    <div>
+                        <label for="breakfast"><h4>Breakfast</h4></label>
+                    </div>
+                    <select name="breakfast" id="breakfast">
+                        <option value="ss">Sausage Egg Scramble Bowl</option>
+                    </select>
+                    <div>
+                        <label for="lunch"><h4>Lunch</h4></label>
+                    </div>
+                    <select name="lunch" id="lunch">
+                        <option value="ln">Club Sandwich Meal</option>
+                    </select>
+                    <div>
+                        <label for="dinner"><h4>Dinner</h4></label>
+                    </div>
+                    <select name="dinner" id="dinner">
+                        <option value="dn">Wagyu Beef Sliders</option>
+                    </select>
+                    <div>
+                        <input type="checkbox" name="dessert" id="dessert"> I'd like dessert, too!
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <label for="drink"><h4>Drink</h4></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Coffee</option>
+                    </select>
+                    <div>
+                        <label for="drink"><h4>Drink</h4></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Cranberry Juice</option>
+                    </select>
+                    <div>
+                        <label for="drink"><h4>Drink</h4></label>
+                    </div>
+                    <select name="drink" id="drink">
+                        <option value="dr">Red Wine</option>
+                    </select>
+                </div>
             </form>
+            <div>
+                <button>Back</button>
+                <button>Continue</button>
+            </div>
         </section>
     </div>
 </body>
