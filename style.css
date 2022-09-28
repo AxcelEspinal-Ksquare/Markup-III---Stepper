@@ -1,0 +1,19 @@
+body {
+    background-color: #dbdcdf;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: Calibri;
+}
+
+.jumbo{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 50px;
+}
+
+.stepper {
+    background-color: #f9fafb;
+}
